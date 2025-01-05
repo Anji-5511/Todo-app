@@ -40,7 +40,16 @@ The **ToDoList App** is a web application built using **Django** that allows use
 
 ---
 
-##Snapshots
+## 🖥️ Snapshots
+
+### 1️⃣ Home Page
+![Home Page](Snapshots/img1.jpg)
+
+### 2️⃣ Recent ToDo List
+![Recent ToDo List](Snapshots/img4.jpg)
+
+### 3️⃣ History Page
+![History Page](Snapshots/img3.jpg)
 
 
 ## 🛠 **Setup Instructions**
