@@ -150,10 +150,6 @@ The **ToDoList App** is a web application built using **Django** that allows use
 ## 🤝 **Contributing**
 Contributions are welcome! Feel free to submit a pull request.
 
----
-
-## 📝 **License**
-This project is licensed under the MIT License.
 
 ---
 
