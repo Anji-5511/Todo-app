@@ -40,6 +40,9 @@ The **ToDoList App** is a web application built using **Django** that allows use
 
 ---
 
+##Snapshots
+
+
 ## 🛠 **Setup Instructions**
 
 1. Clone the repository:
@@ -126,13 +129,11 @@ Contributions are welcome! Feel free to submit a pull request.
 
 ---
 
-## 📝 **License**
-This project is licensed under the MIT License.
 
 ---
 
 ## 📧 **Contact**
 For any inquiries, please contact:
-- **Email:** yourname@example.com
-- **GitHub:** [yourusername](https://github.com/yourusername)
+- **Email:** anjijanigorla@gmail.com
+- **GitHub:** https://github.com/Anji-5511
 
