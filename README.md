@@ -17,12 +17,16 @@ The **ToDoList App** is a web application built using **Django** that allows use
   - Displays a personalized welcome message after login.
   - Provides quick access to task management features.
 
+### 📄 **About Page**
+- **Information:**
+  - Provides details about the app and its functionality.
+
 ### 📃 **Recent ToDo List**
 - **Task Management:**
   - Users can add new tasks to the list.
   - Displays all active tasks.
 
-### 🗂 **History**
+### 🗂 **History Page**
 - **Completed/Deleted Tasks:**
   - Keeps a record of completed or deleted tasks for future reference.
 
@@ -33,24 +37,28 @@ The **ToDoList App** is a web application built using **Django** that allows use
 
 ---
 
+## 🖥️ **Snapshots**
+
+### 1️⃣ **Home Page**
+![Home Page](Snapshots/img1.jpg)
+
+### 2️⃣ **Login Page**
+![Login Page](Snapshots/img2.jpg)
+
+### 3️⃣ **About Page**
+![About Page](Snapshots/img3.jpg)
+
+### 4️⃣ **History Page**
+![History Page](Snapshots/img4.jpg)
+
+---
+
 ## 🖥 **Technologies Used**
 - **Backend:** Django
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
 - **Database:** SQLite (default Django database)
 
 ---
-
-## 🖥️ Snapshots
-
-### 1️⃣ Home Page
-![Home Page](Snapshots/img1.jpg)
-
-### 2️⃣ Recent ToDo List
-![Recent ToDo List](Snapshots/img4.jpg)
-
-### 3️⃣ History Page
-![History Page](Snapshots/img3.jpg)
-
 
 ## 🛠 **Setup Instructions**
 
@@ -106,13 +114,19 @@ The **ToDoList App** is a web application built using **Django** that allows use
 2. **Add Tasks:** Users can add tasks to their to-do list.
 3. **View Recent ToDo List:** Users can view their active tasks.
 4. **Delete Tasks:** Users can remove completed tasks, which are moved to the history section.
-5. **Logout:** Users can securely log out of the session.
+5. **View History:** Users can view deleted tasks in the history section.
+6. **Logout:** Users can securely log out of the session.
 
 ---
 
 ## 📄 **Folder Structure**
 ```
 📂 todolist
+├── 📂 screenshots
+│   ├── home_page.png
+│   ├── login_page.png
+│   ├── about_page.png
+│   └── history_page.png
 ├── 📂 todolist_app
 │   ├── migrations
 │   ├── templates
@@ -138,11 +152,13 @@ Contributions are welcome! Feel free to submit a pull request.
 
 ---
 
+## 📝 **License**
+This project is licensed under the MIT License.
 
 ---
 
 ## 📧 **Contact**
 For any inquiries, please contact:
-- **Email:** anjijanigorla@gmail.com
-- **GitHub:** https://github.com/Anji-5511
+- **Email:** yourname@example.com
+- **GitHub:** [yourusername](https://github.com/yourusername)
 
