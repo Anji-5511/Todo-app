@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.logout-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+
+.logout-container h1 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+button:hover {
+    background-color: #c82333;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Username:"{{user}}" was logout from this session</h1><br>
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        <button type="submit">LOGOUT</button>
+    </form>
+</body>
+</html>
